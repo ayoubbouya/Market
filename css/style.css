@@ -1,0 +1,376 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+/* START HEADER */
+ 
+header .top p{
+  color: dimgray;
+   display: inline-block;  
+   margin-left: 200px;
+   padding: 2px 10px;
+   font-size: small;
+}
+
+header .top hr{
+    border: 0.5px solid darkgray;
+}
+
+header .top p a {
+    color: #FF5500;
+    font-weight: bold;
+    padding: 0px 2px;
+    text-decoration: none;
+}
+header .top ul li a i{
+    padding-right: 4px;
+} 
+
+header .top .top-right {
+    display: inline-block;  
+    margin-left: 400px;
+    padding: 2px;
+    font-size: small;
+}
+
+header .top .top-right li a {
+    color: dimgray; 
+    padding: 0px 20px;
+    border-left: 1px solid darkgray;
+}
+#usd{
+    border-right: 1px solid darkgray;
+}
+ 
+
+header .top ,ul li {    
+    display: inline;
+    padding: 7px;
+   }
+header .top ul li a {
+    text-decoration: none;
+    color: black;
+    
+}
+  
+.logo{
+    margin-left: 190px;
+    display: inline-block;
+     
+}
+
+.logo i{
+    float: left;
+    font-size: 25px;
+    padding: 20px;
+    color: #4A5678;
+ }
+.logo p{
+    font-size: 12px;
+    color: gray;
+    margin-left: 41px;
+     
+}
+.nav{
+    float: right;
+    margin-right: 300px;
+    padding: 10px;
+}
+.shopcart{
+    margin-top: 20px;
+    
+ }
+.shopcart li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+
+}
+.shopcart li a:hover{
+    color: #FF5500;
+}
+ 
+/* END HEADER */
+/* START CATEGORIES */
+
+.categorie{
+     height: 65px;
+     background-color: #4A5678;
+     
+}
+.part1 .search {
+    float: right;
+    margin-top: 20px;
+    margin-right: 330px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.part1 .search input{
+     width: 670px;
+     height: 30px;
+}
+
+.searchButton{
+    width: 100px;
+    height: 25px;
+    color: white;
+    background-color: #FF5500;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    padding-top: 5px;
+     text-decoration: none;
+   
+
+}
+.part1 .search i{
+    color: white;
+    
+    width: 50px;
+    height: 30px;
+ }
+.part1 ul{
+  margin-left: 220px;
+   width: 270px;
+  border: 1px solid #dcdcdc;
+
+}
+ 
+.part1 ul li a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin-left: 30px;
+    color: #737373;
+}
+.part1 ul li a i{
+    padding-right:12px ;
+    
+}
+.part1 ul li a p{
+    color: white;
+}
+ 
+.part1 ul p {
+    color: white;
+    width: 233px;
+    height: 43px;
+    font-weight: bold;
+    background-color: #343C54;
+    padding-left: 35px;
+    padding-top: 20px;
+    border-bottom: 2px solid #FF5500;
+}
+.part1 ul p i{
+    padding-right: 20px;
+}
+
+ /* END CATEGORIES *
+
+ /* START IMAGE */
+ .picture{
+    margin-top: -476px;
+    margin-left: 520px;  
+    
+ }
+
+ .picture img{
+    width: 835px;
+    height: 475px;
+ }
+/* END IMAGE */
+/* START section 1 */
+
+.newsletter{
+    margin-top: 30px;
+    margin-left: 220px;
+    width: 235px;
+    height: 210px;
+    padding: 15px;
+    border: 4px solid #E5E5E5;
+}
+.newsletter h2{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    
+}
+.newsletter p{
+    margin-bottom: 10px;
+    line-height: 22px;
+    color: #737373;
+    font-size: 15px;
+}
+
+.newsletter input[type=email]{
+    width: 210px;
+    margin-top: 5px;
+    padding: 10px;
+    align-items: center;
+}
+
+.newsletter input[type=submit]{
+    width: 235px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4A5678;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 20px;
+}
+
+.newsletter input[type=submit]:hover{
+     
+    background-color: #2f4786;
+    
+}
+
+.ads{
+    width: 834px;
+    height: 244px;
+    background-color: #dcdcdc;
+    margin-left: 520px;
+    margin-top: -245px;
+    text-align: center;
+}
+
+.ads p{
+    padding-top: 100px;
+    font-size: 40px;
+}
+/* END section 1 */
+/* Start section 2 */
+ 
+ .bestseller{
+     margin-left: 220px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+      
+ }
+
+.section2{
+    display: flex;
+   text-align: center;
+   margin-left: 220px;
+}
+
+ .product{
+     padding: 6px;
+ }
+
+ .product p{
+     padding: 4px;
+ }
+ .product .firstPrice{
+    text-decoration: line-through;
+}
+
+.product .currentPrice{
+   color: #FF5500;
+   font-weight: bold;
+   font-size: 20px;
+}
+
+.product:hover{
+   border: 2px solid #ebe9e9;
+ }
+/* END section 2 */
+/* Start section 3 */
+
+.section3{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 220px ;
+    margin-bottom: 30px;
+}
+.section3 .category1 {
+    margin: 10px;
+}
+
+.section3 .category1 h4 {
+    margin: 7px 0px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.section3 .category1 h4:hover{
+    color: #FF5500;
+}
+.section3 .category1 ul li{
+    display: block;
+    text-align: left;
+    list-style-type: disc;
+    display: list-item; 
+    margin-left: 20px;
+    line-height: 12px;
+}
+.section3 .category1 ul li a{
+    text-decoration: none;
+    color: grey;
+}
+.section3 .category1 ul li a:hover{
+     
+    color:#FF5500;
+}
+/* END section 3 */
+ /* start footer 3 */
+ footer .searchbar{
+     background-color: #4A5678;
+     width: 1680px;
+     height: 70px;
+      
+ }
+ footer .searchbar h2{
+     color: white;
+     text-transform: uppercase;
+     padding: 12px 220px;
+     float: left;
+     margin-top: 10px;
+ }
+
+ footer .searchbar input[type="email"] {
+    padding: 6px 100px;
+    margin-top: 18px;
+    font-size: 12px;
+    color: gray;
+ }
+ footer .searchbar input[type="submit"] {
+     text-transform: uppercase;
+     color: white;
+     background-color: #FF5500;
+     font-weight: bold;
+     padding: 10px 25px;
+     border: none;
+     margin-left: -4px ;
+ }
+
+ footer .list{
+     background-color: #F3F4F8;
+     width:1680px ;
+     height: 240px;
+     display: flex;
+ }
+ footer .list .list1{
+     margin: 40px 90px;
+ }
+ footer .list .list1 ul li {
+    display: block ;
+    text-decoration: none; 
+    line-height: 12px;
+ }
+
+ footer .list .list1 ul li a {
+    color: gray;
+    text-decoration: none; 
+ }
+
+ footer .list .list1 h3{
+     margin-bottom: 20px;
+ }
+
+ .copyright p{
+     margin:15px 600px;
+ }
