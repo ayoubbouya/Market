@@ -374,3 +374,74 @@ header .top ul li a {
  .copyright p{
      margin:15px 600px;
  }
+
+ /*  media query  */
+
+ 
+   /*  small */
+
+@media only screen and (min-width: 360px)  {
+    
+     
+
+   /*  small */
+   @media (min-width:375px) {
+  
+     
+     
+  
+  }
+     /*  medium */
+  
+     @media (min-width:768px) {
+      
+      
+        
+   
+    }
+   
+
+    /*  large */
+  
+    @media (min-width:992px) {
+      
+   
+     
+  
+    }
+  
+    /*  extra large */
+  
+    @media (min-width:1200px) {
+      
+        header .top .top-right {
+            margin-left: 200;
+            padding: 0px;
+        }
+       
+        
+        header .top .top-right li a {
+             padding: 0px 13px;
+         }
+
+         .nav {
+             padding: 8px;
+             margin-right: 125px;
+        }
+  
+        header .top, ul li {
+            padding: 0px;
+        }
+
+        .shopcart li a {
+            font-size: 13px;
+        }
+    }
+
+     /* my computer */
+     @media (min-width:1680px) {
+      
+   
+     
+  
+    }
